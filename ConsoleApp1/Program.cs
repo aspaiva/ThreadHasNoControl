@@ -5,6 +5,8 @@ using System.Threading;
  * Threads cannot control execution order by default
  * This makes us to have more care if methods need 
  * some order after running. Think Asyncly
+ * 
+ * This console app is in .NET6 which do not require main() function
  */
 
 static void DoSomething(string What, int HowLong)
